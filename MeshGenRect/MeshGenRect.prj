@@ -1,0 +1,69 @@
+{
+  "Root":{
+    "Folders":[],
+    "Name":"+MeshGenRect (MeshGenRect.exe)",
+    "Files":[{
+        "filename":".\\interpolS.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\interpolV.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\MeshGenRect.f90",
+        "enabled":"1"
+      }]
+  },
+  "Name":"MeshGenRect (MeshGenRect.exe)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":1,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Add-On Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Add-On Include Directory"]
+    },
+    "Target":"MeshGenRect.exe",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Launch Using MPI":"false",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link MPI Library":"false",
+      "Link LAPACK":0
+    }
+  }
+}
