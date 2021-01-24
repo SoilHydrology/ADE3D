@@ -1,0 +1,165 @@
+{
+  "Root":{
+    "Folders":[],
+    "Name":"+p-FEM-3D (..\\p-FEM-3D.exe)",
+    "Files":[{
+        "filename":".\\access2.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\amux.f",
+        "enabled":"1"
+      },{
+        "filename":".\\assemble.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\assemble2.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\bc.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\bcgstab.f",
+        "enabled":"1"
+      },{
+        "filename":".\\bisinit.f",
+        "enabled":"1"
+      },{
+        "filename":".\\brkdn.f",
+        "enabled":"1"
+      },{
+        "filename":".\\cperm.f",
+        "enabled":"1"
+      },{
+        "filename":".\\ddot.f",
+        "enabled":"1"
+      },{
+        "filename":".\\distdot.f",
+        "enabled":"1"
+      },{
+        "filename":".\\dorder.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\dperm.f",
+        "enabled":"1"
+      },{
+        "filename":".\\dvperm.f",
+        "enabled":"1"
+      },{
+        "filename":".\\error.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\error_init.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\init.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\legendre.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\legendre_set.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\main.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\nodalmat.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\out.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\readin.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\readparam.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\rperm.f",
+        "enabled":"1"
+      },{
+        "filename":".\\shape.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\shapeb.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\shapem.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\shapeq.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\solve.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\source.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\source0.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\stopbis.f",
+        "enabled":"1"
+      },{
+        "filename":".\\submat.f",
+        "enabled":"1"
+      },{
+        "filename":".\\tidycg.f",
+        "enabled":"1"
+      }]
+  },
+  "Name":"p-FEM-3D (../p-FEM-3D.exe)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":1,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Add-On Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Add-On Include Directory"]
+    },
+    "Target":"..\\p-FEM-3D.exe",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Launch Using MPI":"false",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link MPI Library":"false",
+      "Link LAPACK":0
+    }
+  }
+}
